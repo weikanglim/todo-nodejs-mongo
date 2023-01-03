@@ -18,7 +18,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: azdevcliextacr.azurecr.io/azure-dev:pr-1309
+      image: azdevcliextacr.azurecr.io/azure-dev:daily
     env:
       AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
       AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
